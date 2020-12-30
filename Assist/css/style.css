@@ -1387,13 +1387,17 @@ ul.social-icons li a:hover {
         width: 27%;
     }
 }
-
+@media(max-width:360){
+    .banner-bottom-wthree{
+        height: 126vw !important;
+    }
+}
 @media(max-width:736px) {
     .contact {
         height: 124vw;
     }
     .banner-bottom-wthree{
-        height: 126vw;
+        height: 210vw;
     }
     .testimonials {
         height: 50vw;
