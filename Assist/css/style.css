@@ -262,13 +262,13 @@ div#word-mark h1 a {
 /*-- /header --*/
 
 .banner_section {
-    background: url(../img/img.png) no-repeat 0px 0px;
-    background-size: contain;
-    background-position: center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    -ms-background-size: contain;
+    background: url(../img/dex.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-position: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
     background-blend-mode: overlay;
     background-color: rgb(39, 39, 39);
     height: 50vw;
