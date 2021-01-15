@@ -270,7 +270,7 @@ div#word-mark h1 a {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgb(58, 57, 57);
+    background-color: rgba(0, 0, 0, .3);
     height: 50vw;
     position: relative;
     z-index: 0;
