@@ -139,6 +139,26 @@ ul.nav-honey {
     cursor: pointer;
 }
 
+.logo img{
+  max-width:145%;
+}
+
+@media screen and (max-width:360px){
+    .logo img{
+        max-width:80%;
+      } 
+
+      .word-mark{
+         
+      }
+      .word-text{
+          font-size: 15px !important;
+          left:23%;
+          position: absolute;
+          top: 50%;
+      }
+}
+
 #word-mark {
     width: 120px;
     border-radius: 90px;
@@ -262,7 +282,7 @@ div#word-mark h1 a {
 /*-- /header --*/
 
 .banner_section {
-    background: url(../img/dex.jpg) no-repeat 0px 0px;
+    background: url(../img/Dex.jpg) no-repeat 0px 0px;
     background-size: cover;
     background-position: cover;
     -webkit-background-size: cover;
@@ -270,7 +290,7 @@ div#word-mark h1 a {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(5, 2, 53, 0.802);
     height: 50vw;
     position: relative;
     z-index: 0;
