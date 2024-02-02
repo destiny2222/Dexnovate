@@ -335,25 +335,7 @@ $(function() {
       return false;
     });
 
-    anime({
-      targets: '.art-counter-frame',
-      opacity: [0, 1],
-      duration: 800,
-      delay: 300,
-      easing: 'linear',
-    });
 
-    $('.art-counter').each(function() {
-      $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-      }, {
-        duration: 2000,
-        easing: 'linear',
-        step: function(now) {
-          $(this).text(Math.ceil(now));
-        }
-      });
-    });
 
     // slider testimonials
     var swiper = new Swiper('.art-testimonial-slider', {
